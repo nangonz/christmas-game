@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta property="og:description" content="Classic snake game Chistmas theme 🎅">
+    <meta property="og:image" content="santa-gift.png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:url" content="URL_de_tu_página"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="../public/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <title>Christmas Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <div class="scores">
+        <h1 id="score">000</h1>
+        <h1 id="highScore">000</h1>
+      </div>
+      <div class="game-border-1">
+        <div class="game-border-2">
+          <div class="game-border-3">
+            <div id="game-board"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 id="instruction-text">Press spacebar to start the game</h1>
+    <img id="logo" src="../public/santa-gift.png" alt="snake-logo" />
+    <div id="arrows-pad">
+      <div class="arrow-item" value="left"><iconify-icon icon="mdi:arrow-up-bold" style="color: white;" rotate="270deg"></iconify-icon></div>
+      <div id="arrow-upanddown">
+        <div class="arrow-item up" value="up"><iconify-icon icon="mdi:arrow-up-bold" style="color: white;"></iconify-icon></div>
+        <div class="arrow-item"value="down"><iconify-icon icon="mdi:arrow-up-bold" style="color: white;" rotate="180deg"></iconify-icon></div>
+      </div>
+      <div class="arrow-item" value="right"><iconify-icon icon="mdi:arrow-up-bold" style="color: white;" rotate="90deg"></iconify-icon></div>
+    </div>
+  </body>
+</html>
